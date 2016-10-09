@@ -7,9 +7,13 @@
 //
 
 #import "Home_ViewController.h"
+@import GoogleMobileAds;
+@import FirebaseAnalytics;
+@import Firebase;
 
 
 @interface Workoutlog_ViewController ()
+@property (weak, nonatomic) IBOutlet GADBannerView *BannerAd2;
 
 @end
 
@@ -24,6 +28,10 @@
     [[UIDevice currentDevice] setValue:value forKey:@"orientation"];
     
     self.navigationItem.hidesBackButton = YES;
+    
+    self.BannerAd2.adUnitID = @"ca-app-pub-5722562744549789/4964470557";
+    self.BannerAd2.rootViewController = self;
+    [self.BannerAd2 loadRequest:[GADRequest request]];
     
      [[self navigationController] setNavigationBarHidden:NO animated:NO];
     

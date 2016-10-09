@@ -7,6 +7,9 @@
 //
 #import "Home_ViewController.h"
 #import "AppDelegate.h"
+@import GoogleMobileAds;
+@import FirebaseAnalytics;
+@import Firebase;
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -34,6 +37,8 @@
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
+    [FIRApp configure];
+    [GADMobileAds configureWithApplicationID:@"ca-app-pub-5722562744549789~3487737357"];
     
    // [_navCon.navigationBar setTitleTextAttributes:
     // @{NSForegroundColorAttributeName:[UIColor whiteColor]}];

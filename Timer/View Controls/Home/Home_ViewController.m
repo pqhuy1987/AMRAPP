@@ -7,9 +7,12 @@
 //
 
 #import "Home_ViewController.h"
-
+@import GoogleMobileAds;
+@import FirebaseAnalytics;
+@import Firebase;
 
 @interface Home_ViewController ()
+@property (weak, nonatomic) IBOutlet GADBannerView *bannerView;
 
 @end
 
@@ -24,6 +27,10 @@
     [ApplicationDelegate restrictRotation:NO];
     
     try_screen =[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    self.bannerView.adUnitID = @"ca-app-pub-5722562744549789/4964470557";
+    self.bannerView.rootViewController = self;
+    [self.bannerView loadRequest:[GADRequest request]];
     // Do any additional setup after loading the view.
 }
 
