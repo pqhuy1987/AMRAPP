@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41B3D7521D817D3C00A544B0 /* AMRAPP.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 41B3D74F1D817D3C00A544B0 /* AMRAPP.sqlite */; };
+		41B3D7531D817D3C00A544B0 /* DBConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B3D7511D817D3C00A544B0 /* DBConnection.m */; };
+		41B3D7551D817DB800A544B0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B3D7541D817DB800A544B0 /* libsqlite3.0.tbd */; };
+		41B3D7591D81A8C100A544B0 /* DeathTimer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B3D7581D81A8C100A544B0 /* DeathTimer_ViewController.m */; };
+		41DB36A81D7AB5B5005AA7DF /* background_elegant_picker_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41DB369F1D7AB5B5005AA7DF /* background_elegant_picker_bottom@2x.png */; };
+		41DB36A91D7AB5B5005AA7DF /* background_elegant_picker_seperator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41DB36A01D7AB5B5005AA7DF /* background_elegant_picker_seperator@2x.png */; };
+		41DB36AA1D7AB5B5005AA7DF /* background_elegant_picker_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41DB36A11D7AB5B5005AA7DF /* background_elegant_picker_top@2x.png */; };
+		41DB36AB1D7AB5B5005AA7DF /* PLABElegantTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DB36A31D7AB5B5005AA7DF /* PLABElegantTimePicker.m */; };
+		41DB36AC1D7AB5B5005AA7DF /* PLABElegantTimePickerColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DB36A51D7AB5B5005AA7DF /* PLABElegantTimePickerColumnView.m */; };
+		41DB36AD1D7AB5B5005AA7DF /* PLABElegantTimePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DB36A71D7AB5B5005AA7DF /* PLABElegantTimePickerTableViewCell.m */; };
+		744F17241D6076A000B7E5FE /* Roundfortime_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F17231D6076A000B7E5FE /* Roundfortime_ViewController.m */; };
+		74AECC111D61E4F4008283F3 /* Roundfortimerounds_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AECC101D61E4F4008283F3 /* Roundfortimerounds_ViewController.m */; };
+		74AECC1D1D61EA50008283F3 /* Timerscreen_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AECC1C1D61EA50008283F3 /* Timerscreen_ViewController.m */; };
+		74AECC211D61ECF8008283F3 /* workoutresult_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AECC201D61ECF8008283F3 /* workoutresult_ViewController.m */; };
+		74AECC251D61ED6B008283F3 /* Workoutlog_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AECC241D61ED6B008283F3 /* Workoutlog_ViewController.m */; };
+		74B27D611D5F4FDB00304138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B27D601D5F4FDB00304138 /* main.m */; };
+		74B27D641D5F4FDB00304138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B27D631D5F4FDB00304138 /* AppDelegate.m */; };
+		74B27D6D1D5F4FDB00304138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B27D6B1D5F4FDB00304138 /* Main.storyboard */; };
+		74B27D6F1D5F4FDB00304138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B27D6E1D5F4FDB00304138 /* Assets.xcassets */; };
+		74B27D721D5F4FDB00304138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B27D701D5F4FDB00304138 /* LaunchScreen.storyboard */; };
+		74B27D7C1D5F53CE00304138 /* Home_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B27D7B1D5F53CE00304138 /* Home_ViewController.m */; };
+		74B27D841D5F5B8000304138 /* Amrap_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B27D831D5F5B8000304138 /* Amrap_ViewController.m */; };
+		74B813FC1D605423008A15C0 /* Deathby_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B813FB1D605423008A15C0 /* Deathby_ViewController.m */; };
+		74E1DCE01D632BFE00C47145 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E1DCDD1D632BFE00C47145 /* TPKeyboardAvoidingScrollView.m */; };
+		74E1DCE11D632BFE00C47145 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E1DCDF1D632BFE00C47145 /* TPKeyboardAvoidingTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41B3D74F1D817D3C00A544B0 /* AMRAPP.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = AMRAPP.sqlite; sourceTree = "<group>"; };
+		41B3D7501D817D3C00A544B0 /* DBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConnection.h; sourceTree = "<group>"; };
+		41B3D7511D817D3C00A544B0 /* DBConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBConnection.m; sourceTree = "<group>"; };
+		41B3D7541D817DB800A544B0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		41B3D7571D81A8C100A544B0 /* DeathTimer_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeathTimer_ViewController.h; sourceTree = "<group>"; };
+		41B3D7581D81A8C100A544B0 /* DeathTimer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeathTimer_ViewController.m; sourceTree = "<group>"; };
+		41DB369F1D7AB5B5005AA7DF /* background_elegant_picker_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_elegant_picker_bottom@2x.png"; sourceTree = "<group>"; };
+		41DB36A01D7AB5B5005AA7DF /* background_elegant_picker_seperator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_elegant_picker_seperator@2x.png"; sourceTree = "<group>"; };
+		41DB36A11D7AB5B5005AA7DF /* background_elegant_picker_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_elegant_picker_top@2x.png"; sourceTree = "<group>"; };
+		41DB36A21D7AB5B5005AA7DF /* PLABElegantTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLABElegantTimePicker.h; sourceTree = "<group>"; };
+		41DB36A31D7AB5B5005AA7DF /* PLABElegantTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLABElegantTimePicker.m; sourceTree = "<group>"; };
+		41DB36A41D7AB5B5005AA7DF /* PLABElegantTimePIckerColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLABElegantTimePIckerColumnView.h; sourceTree = "<group>"; };
+		41DB36A51D7AB5B5005AA7DF /* PLABElegantTimePickerColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLABElegantTimePickerColumnView.m; sourceTree = "<group>"; };
+		41DB36A61D7AB5B5005AA7DF /* PLABElegantTimePickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLABElegantTimePickerTableViewCell.h; sourceTree = "<group>"; };
+		41DB36A71D7AB5B5005AA7DF /* PLABElegantTimePickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLABElegantTimePickerTableViewCell.m; sourceTree = "<group>"; };
+		744F17221D6076A000B7E5FE /* Roundfortime_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roundfortime_ViewController.h; sourceTree = "<group>"; };
+		744F17231D6076A000B7E5FE /* Roundfortime_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Roundfortime_ViewController.m; sourceTree = "<group>"; };
+		74AECC0F1D61E4F4008283F3 /* Roundfortimerounds_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roundfortimerounds_ViewController.h; sourceTree = "<group>"; };
+		74AECC101D61E4F4008283F3 /* Roundfortimerounds_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Roundfortimerounds_ViewController.m; sourceTree = "<group>"; };
+		74AECC1B1D61EA50008283F3 /* Timerscreen_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timerscreen_ViewController.h; sourceTree = "<group>"; };
+		74AECC1C1D61EA50008283F3 /* Timerscreen_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timerscreen_ViewController.m; sourceTree = "<group>"; };
+		74AECC1F1D61ECF8008283F3 /* workoutresult_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = workoutresult_ViewController.h; sourceTree = "<group>"; };
+		74AECC201D61ECF8008283F3 /* workoutresult_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = workoutresult_ViewController.m; sourceTree = "<group>"; };
+		74AECC231D61ED6B008283F3 /* Workoutlog_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workoutlog_ViewController.h; sourceTree = "<group>"; };
+		74AECC241D61ED6B008283F3 /* Workoutlog_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Workoutlog_ViewController.m; sourceTree = "<group>"; };
+		74B27D5C1D5F4FDB00304138 /* AMRAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMRAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B27D601D5F4FDB00304138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74B27D621D5F4FDB00304138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74B27D631D5F4FDB00304138 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74B27D6C1D5F4FDB00304138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74B27D6E1D5F4FDB00304138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74B27D711D5F4FDB00304138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74B27D731D5F4FDB00304138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B27D7A1D5F53CE00304138 /* Home_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home_ViewController.h; sourceTree = "<group>"; };
+		74B27D7B1D5F53CE00304138 /* Home_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_ViewController.m; sourceTree = "<group>"; };
+		74B27D821D5F5B8000304138 /* Amrap_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amrap_ViewController.h; sourceTree = "<group>"; };
+		74B27D831D5F5B8000304138 /* Amrap_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amrap_ViewController.m; sourceTree = "<group>"; };
+		74B813FA1D605423008A15C0 /* Deathby_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deathby_ViewController.h; sourceTree = "<group>"; };
+		74B813FB1D605423008A15C0 /* Deathby_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deathby_ViewController.m; sourceTree = "<group>"; };
+		74E1DCDC1D632BFE00C47145 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		74E1DCDD1D632BFE00C47145 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		74E1DCDE1D632BFE00C47145 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		74E1DCDF1D632BFE00C47145 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B27D591D5F4FDB00304138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B3D7551D817DB800A544B0 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41B3D74E1D817D3C00A544B0 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				41B3D74F1D817D3C00A544B0 /* AMRAPP.sqlite */,
+				41B3D7501D817D3C00A544B0 /* DBConnection.h */,
+				41B3D7511D817D3C00A544B0 /* DBConnection.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		41B3D7561D81A8A400A544B0 /* DeathTimer */ = {
+			isa = PBXGroup;
+			children = (
+				41B3D7571D81A8C100A544B0 /* DeathTimer_ViewController.h */,
+				41B3D7581D81A8C100A544B0 /* DeathTimer_ViewController.m */,
+			);
+			name = DeathTimer;
+			path = "View Controls/DeathTimer";
+			sourceTree = "<group>";
+		};
+		41DB369E1D7AB5B5005AA7DF /* ElegantTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				41DB369F1D7AB5B5005AA7DF /* background_elegant_picker_bottom@2x.png */,
+				41DB36A01D7AB5B5005AA7DF /* background_elegant_picker_seperator@2x.png */,
+				41DB36A11D7AB5B5005AA7DF /* background_elegant_picker_top@2x.png */,
+				41DB36A21D7AB5B5005AA7DF /* PLABElegantTimePicker.h */,
+				41DB36A31D7AB5B5005AA7DF /* PLABElegantTimePicker.m */,
+				41DB36A41D7AB5B5005AA7DF /* PLABElegantTimePIckerColumnView.h */,
+				41DB36A51D7AB5B5005AA7DF /* PLABElegantTimePickerColumnView.m */,
+				41DB36A61D7AB5B5005AA7DF /* PLABElegantTimePickerTableViewCell.h */,
+				41DB36A71D7AB5B5005AA7DF /* PLABElegantTimePickerTableViewCell.m */,
+			);
+			path = ElegantTimePicker;
+			sourceTree = "<group>";
+		};
+		744F17211D60768200B7E5FE /* Rounfortime */ = {
+			isa = PBXGroup;
+			children = (
+				744F17221D6076A000B7E5FE /* Roundfortime_ViewController.h */,
+				744F17231D6076A000B7E5FE /* Roundfortime_ViewController.m */,
+			);
+			name = Rounfortime;
+			path = "View Controls/Rounfortime";
+			sourceTree = "<group>";
+		};
+		74AECC0E1D61E4E0008283F3 /* Roundfortimerounds */ = {
+			isa = PBXGroup;
+			children = (
+				74AECC0F1D61E4F4008283F3 /* Roundfortimerounds_ViewController.h */,
+				74AECC101D61E4F4008283F3 /* Roundfortimerounds_ViewController.m */,
+			);
+			name = Roundfortimerounds;
+			path = "View Controls/Roundfortimerounds";
+			sourceTree = "<group>";
+		};
+		74AECC1A1D61EA40008283F3 /* Timerscreen */ = {
+			isa = PBXGroup;
+			children = (
+				74AECC1B1D61EA50008283F3 /* Timerscreen_ViewController.h */,
+				74AECC1C1D61EA50008283F3 /* Timerscreen_ViewController.m */,
+			);
+			name = Timerscreen;
+			path = "View Controls/Timerscreen";
+			sourceTree = "<group>";
+		};
+		74AECC1E1D61ECF8008283F3 /* Workoutresult */ = {
+			isa = PBXGroup;
+			children = (
+				74AECC1F1D61ECF8008283F3 /* workoutresult_ViewController.h */,
+				74AECC201D61ECF8008283F3 /* workoutresult_ViewController.m */,
+			);
+			name = Workoutresult;
+			path = "View Controls/Workoutresult";
+			sourceTree = "<group>";
+		};
+		74AECC221D61ED50008283F3 /* Workoutlog */ = {
+			isa = PBXGroup;
+			children = (
+				74AECC231D61ED6B008283F3 /* Workoutlog_ViewController.h */,
+				74AECC241D61ED6B008283F3 /* Workoutlog_ViewController.m */,
+			);
+			name = Workoutlog;
+			path = "View Controls/Workoutlog";
+			sourceTree = "<group>";
+		};
+		74B27D531D5F4FDB00304138 = {
+			isa = PBXGroup;
+			children = (
+				41B3D7541D817DB800A544B0 /* libsqlite3.0.tbd */,
+				74B27D5E1D5F4FDB00304138 /* Timer */,
+				74B27D5D1D5F4FDB00304138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74B27D5D1D5F4FDB00304138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B27D5C1D5F4FDB00304138 /* AMRAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B27D5E1D5F4FDB00304138 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				41B3D7561D81A8A400A544B0 /* DeathTimer */,
+				41B3D74E1D817D3C00A544B0 /* Database */,
+				74E1DCDA1D632BFE00C47145 /* Library */,
+				74AECC221D61ED50008283F3 /* Workoutlog */,
+				74AECC1E1D61ECF8008283F3 /* Workoutresult */,
+				74AECC1A1D61EA40008283F3 /* Timerscreen */,
+				74AECC0E1D61E4E0008283F3 /* Roundfortimerounds */,
+				744F17211D60768200B7E5FE /* Rounfortime */,
+				74B813F91D60540F008A15C0 /* Deathby */,
+				74B27D811D5F5B5B00304138 /* Amrap */,
+				74B27D791D5F53BA00304138 /* Home */,
+				74B27D621D5F4FDB00304138 /* AppDelegate.h */,
+				74B27D631D5F4FDB00304138 /* AppDelegate.m */,
+				74B27D6B1D5F4FDB00304138 /* Main.storyboard */,
+				74B27D6E1D5F4FDB00304138 /* Assets.xcassets */,
+				74B27D701D5F4FDB00304138 /* LaunchScreen.storyboard */,
+				74B27D731D5F4FDB00304138 /* Info.plist */,
+				74B27D5F1D5F4FDB00304138 /* Supporting Files */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		74B27D5F1D5F4FDB00304138 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74B27D601D5F4FDB00304138 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74B27D791D5F53BA00304138 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				74B27D7A1D5F53CE00304138 /* Home_ViewController.h */,
+				74B27D7B1D5F53CE00304138 /* Home_ViewController.m */,
+			);
+			name = Home;
+			path = "View Controls/Home";
+			sourceTree = "<group>";
+		};
+		74B27D811D5F5B5B00304138 /* Amrap */ = {
+			isa = PBXGroup;
+			children = (
+				74B27D821D5F5B8000304138 /* Amrap_ViewController.h */,
+				74B27D831D5F5B8000304138 /* Amrap_ViewController.m */,
+			);
+			name = Amrap;
+			path = "View Controls/Amrap";
+			sourceTree = "<group>";
+		};
+		74B813F91D60540F008A15C0 /* Deathby */ = {
+			isa = PBXGroup;
+			children = (
+				74B813FA1D605423008A15C0 /* Deathby_ViewController.h */,
+				74B813FB1D605423008A15C0 /* Deathby_ViewController.m */,
+			);
+			name = Deathby;
+			path = "View Controls/Deathby";
+			sourceTree = "<group>";
+		};
+		74E1DCDA1D632BFE00C47145 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				41DB369E1D7AB5B5005AA7DF /* ElegantTimePicker */,
+				74E1DCDB1D632BFE00C47145 /* TPKeyboardAvoiding */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		74E1DCDB1D632BFE00C47145 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				74E1DCDC1D632BFE00C47145 /* TPKeyboardAvoidingScrollView.h */,
+				74E1DCDD1D632BFE00C47145 /* TPKeyboardAvoidingScrollView.m */,
+				74E1DCDE1D632BFE00C47145 /* TPKeyboardAvoidingTableView.h */,
+				74E1DCDF1D632BFE00C47145 /* TPKeyboardAvoidingTableView.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B27D5B1D5F4FDB00304138 /* AMRAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B27D761D5F4FDB00304138 /* Build configuration list for PBXNativeTarget "AMRAPP" */;
+			buildPhases = (
+				74B27D581D5F4FDB00304138 /* Sources */,
+				74B27D591D5F4FDB00304138 /* Frameworks */,
+				74B27D5A1D5F4FDB00304138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMRAPP;
+			productName = Timer;
+			productReference = 74B27D5C1D5F4FDB00304138 /* AMRAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B27D541D5F4FDB00304138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sprobit;
+				TargetAttributes = {
+					74B27D5B1D5F4FDB00304138 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SDTS327XB7;
+					};
+				};
+			};
+			buildConfigurationList = 74B27D571D5F4FDB00304138 /* Build configuration list for PBXProject "AMRAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74B27D531D5F4FDB00304138;
+			productRefGroup = 74B27D5D1D5F4FDB00304138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B27D5B1D5F4FDB00304138 /* AMRAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B27D5A1D5F4FDB00304138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DB36A91D7AB5B5005AA7DF /* background_elegant_picker_seperator@2x.png in Resources */,
+				41DB36AA1D7AB5B5005AA7DF /* background_elegant_picker_top@2x.png in Resources */,
+				41B3D7521D817D3C00A544B0 /* AMRAPP.sqlite in Resources */,
+				41DB36A81D7AB5B5005AA7DF /* background_elegant_picker_bottom@2x.png in Resources */,
+				74B27D721D5F4FDB00304138 /* LaunchScreen.storyboard in Resources */,
+				74B27D6F1D5F4FDB00304138 /* Assets.xcassets in Resources */,
+				74B27D6D1D5F4FDB00304138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B27D581D5F4FDB00304138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B27D841D5F5B8000304138 /* Amrap_ViewController.m in Sources */,
+				74E1DCE11D632BFE00C47145 /* TPKeyboardAvoidingTableView.m in Sources */,
+				41DB36AC1D7AB5B5005AA7DF /* PLABElegantTimePickerColumnView.m in Sources */,
+				74B813FC1D605423008A15C0 /* Deathby_ViewController.m in Sources */,
+				74B27D7C1D5F53CE00304138 /* Home_ViewController.m in Sources */,
+				74AECC211D61ECF8008283F3 /* workoutresult_ViewController.m in Sources */,
+				74E1DCE01D632BFE00C47145 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				41B3D7591D81A8C100A544B0 /* DeathTimer_ViewController.m in Sources */,
+				74B27D641D5F4FDB00304138 /* AppDelegate.m in Sources */,
+				41DB36AB1D7AB5B5005AA7DF /* PLABElegantTimePicker.m in Sources */,
+				41B3D7531D817D3C00A544B0 /* DBConnection.m in Sources */,
+				744F17241D6076A000B7E5FE /* Roundfortime_ViewController.m in Sources */,
+				74AECC251D61ED6B008283F3 /* Workoutlog_ViewController.m in Sources */,
+				74AECC111D61E4F4008283F3 /* Roundfortimerounds_ViewController.m in Sources */,
+				74AECC1D1D61EA50008283F3 /* Timerscreen_ViewController.m in Sources */,
+				41DB36AD1D7AB5B5005AA7DF /* PLABElegantTimePickerTableViewCell.m in Sources */,
+				74B27D611D5F4FDB00304138 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74B27D6B1D5F4FDB00304138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B27D6C1D5F4FDB00304138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74B27D701D5F4FDB00304138 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B27D711D5F4FDB00304138 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B27D741D5F4FDB00304138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rafael Donadio (55AMEJ733Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rafael Donadio (55AMEJ733Y)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9aaf3d26-f7a7-48b7-87d7-18ad0b18ad34";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74B27D751D5F4FDB00304138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rafael Donadio (55AMEJ733Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rafael Donadio (55AMEJ733Y)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "9aaf3d26-f7a7-48b7-87d7-18ad0b18ad34";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B27D771D5F4FDB00304138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Timer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AMRAP;
+				PRODUCT_NAME = AMRAPP;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		74B27D781D5F4FDB00304138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Timer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AMRAP;
+				PRODUCT_NAME = AMRAPP;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B27D571D5F4FDB00304138 /* Build configuration list for PBXProject "AMRAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B27D741D5F4FDB00304138 /* Debug */,
+				74B27D751D5F4FDB00304138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B27D761D5F4FDB00304138 /* Build configuration list for PBXNativeTarget "AMRAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B27D771D5F4FDB00304138 /* Debug */,
+				74B27D781D5F4FDB00304138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B27D541D5F4FDB00304138 /* Project object */;
+}
