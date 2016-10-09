@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123864CA1DAA312B004232F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 123864C91DAA312B004232F5 /* GoogleService-Info.plist */; };
+		1BBE3F10FE68082DE3DFC7ED /* libPods-AMRAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CBDB6197AC7BBE8BEBAED5 /* libPods-AMRAPP.a */; };
 		41B3D7521D817D3C00A544B0 /* AMRAPP.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 41B3D74F1D817D3C00A544B0 /* AMRAPP.sqlite */; };
 		41B3D7531D817D3C00A544B0 /* DBConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B3D7511D817D3C00A544B0 /* DBConnection.m */; };
 		41B3D7551D817DB800A544B0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B3D7541D817DB800A544B0 /* libsqlite3.0.tbd */; };
@@ -35,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		123864C91DAA312B004232F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		41B3D74F1D817D3C00A544B0 /* AMRAPP.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = AMRAPP.sqlite; sourceTree = "<group>"; };
 		41B3D7501D817D3C00A544B0 /* DBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConnection.h; sourceTree = "<group>"; };
 		41B3D7511D817D3C00A544B0 /* DBConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBConnection.m; sourceTree = "<group>"; };
@@ -78,6 +81,9 @@
 		74E1DCDD1D632BFE00C47145 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		74E1DCDE1D632BFE00C47145 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
 		74E1DCDF1D632BFE00C47145 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		855C827DF593A282469167D3 /* Pods-AMRAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMRAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMRAPP/Pods-AMRAPP.release.xcconfig"; sourceTree = "<group>"; };
+		91CBDB6197AC7BBE8BEBAED5 /* libPods-AMRAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMRAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E046C6367ADC7336343B1E4E /* Pods-AMRAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMRAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMRAPP/Pods-AMRAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B3D7551D817DB800A544B0 /* libsqlite3.0.tbd in Frameworks */,
+				1BBE3F10FE68082DE3DFC7ED /* libPods-AMRAPP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,9 +188,12 @@
 		74B27D531D5F4FDB00304138 = {
 			isa = PBXGroup;
 			children = (
+				123864C91DAA312B004232F5 /* GoogleService-Info.plist */,
 				41B3D7541D817DB800A544B0 /* libsqlite3.0.tbd */,
 				74B27D5E1D5F4FDB00304138 /* Timer */,
 				74B27D5D1D5F4FDB00304138 /* Products */,
+				C45A547358233FE796EDF63E /* Pods */,
+				9350BD57CA6A21EEF2F77B38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -278,6 +288,23 @@
 			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
+		9350BD57CA6A21EEF2F77B38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91CBDB6197AC7BBE8BEBAED5 /* libPods-AMRAPP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C45A547358233FE796EDF63E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E046C6367ADC7336343B1E4E /* Pods-AMRAPP.debug.xcconfig */,
+				855C827DF593A282469167D3 /* Pods-AMRAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -285,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74B27D761D5F4FDB00304138 /* Build configuration list for PBXNativeTarget "AMRAPP" */;
 			buildPhases = (
+				42ED7B1B9062384AC573D520 /* [CP] Check Pods Manifest.lock */,
 				74B27D581D5F4FDB00304138 /* Sources */,
 				74B27D591D5F4FDB00304138 /* Frameworks */,
 				74B27D5A1D5F4FDB00304138 /* Resources */,
+				240DC83F4F2798EBF55505BB /* [CP] Embed Pods Frameworks */,
+				D6D388EDB8B760152C9E790F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -309,7 +339,7 @@
 				TargetAttributes = {
 					74B27D5B1D5F4FDB00304138 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = SDTS327XB7;
+						DevelopmentTeam = JQNK74493B;
 					};
 				};
 			};
@@ -337,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41DB36A91D7AB5B5005AA7DF /* background_elegant_picker_seperator@2x.png in Resources */,
+				123864CA1DAA312B004232F5 /* GoogleService-Info.plist in Resources */,
 				41DB36AA1D7AB5B5005AA7DF /* background_elegant_picker_top@2x.png in Resources */,
 				41B3D7521D817D3C00A544B0 /* AMRAPP.sqlite in Resources */,
 				41DB36A81D7AB5B5005AA7DF /* background_elegant_picker_bottom@2x.png in Resources */,
@@ -347,6 +378,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		240DC83F4F2798EBF55505BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMRAPP/Pods-AMRAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42ED7B1B9062384AC573D520 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D388EDB8B760152C9E790F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMRAPP/Pods-AMRAPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74B27D581D5F4FDB00304138 /* Sources */ = {
@@ -481,14 +560,16 @@
 		};
 		74B27D771D5F4FDB00304138 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E046C6367ADC7336343B1E4E /* Pods-AMRAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JQNK74493B;
 				INFOPLIST_FILE = Timer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AMRAP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.amrapp.100;
 				PRODUCT_NAME = AMRAPP;
 				PROVISIONING_PROFILE = "";
 			};
@@ -496,14 +577,16 @@
 		};
 		74B27D781D5F4FDB00304138 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855C827DF593A282469167D3 /* Pods-AMRAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JQNK74493B;
 				INFOPLIST_FILE = Timer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AMRAP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.amrapp.100;
 				PRODUCT_NAME = AMRAPP;
 				PROVISIONING_PROFILE = "";
 			};
